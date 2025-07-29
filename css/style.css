@@ -32,7 +32,11 @@
 
 body {
     font-family: Arial, sans-serif; 
+    font-weight: 400;
+    font-style: italic;
+    background-color: pink;
 }
+
 
 header, footer {
     text-align: center; 
@@ -49,6 +53,7 @@ header, footer {
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
+    background-color: white;
 }
 
 /* Imagen de perfil */
@@ -83,5 +88,16 @@ header, footer {
 .links-list a:hover {
     color: #0056b3; 
     text-decoration: underline; 
+}
+
+@media screen and (max-width: 600px) {
+    .perfil-marshmello{
+        max-width: 400px;
+
+    }
+    .titulos{
+        font-size: medium;
+    }
+
 }
 
