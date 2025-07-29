@@ -1,0 +1,87 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: var(--text-defaul);
+}
+
+.titulos{
+     font-size: 40px;
+     font-weight: 800px;
+     
+     text-align: center;
+     text-transform: uppercase;
+
+     color: blue
+}
+
+.subtitulos{
+     font-size: 25px;
+     font-weight: 400px;
+     
+     text-align: center;
+     text-transform: uppercase;
+     
+     color: orange;
+}
+
+.logo img{
+     width:130px;
+     cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+header, footer {
+    text-align: center; 
+}
+
+
+.perfil-marshmello {
+    max-width: 400px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Imagen de perfil */
+.Imagen de perfil de Marshmello {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    display: block; 
+    margin-bottom: 15px; 
+}
+
+/* Lista de enlaces */
+.links-list {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.links-list li {
+    margin: 0 10px; 
+}
+
+.links-list a {
+    text-decoration: none; 
+    color: #007bff;
+    transition: color 0.3s ease; 
+}
+
+.links-list a:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}
+
